@@ -1,0 +1,135 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    margin: auto 0;
+    text-align: center;
+}
+
+.main-nav {
+    background-color: black;
+    margin: 0;
+    padding: 15px;
+}
+
+.leaves {
+    cursor: grab;
+    cursor: -webkit-grab;
+    cursor: -moz-grab;
+    margin: 0;
+    font-size: 50px;
+    z-index: 10;
+    position: relative;
+}
+
+h1 {
+    font-family: 'Libre Baskerville', serif;
+    color: white;
+    font-size: 2rem;
+}
+
+h2 {
+    font-family: 'Libre Baskerville', serif;
+    color: white;
+    font-size: 1.5rem;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-size: 1rem;
+}
+
+.line {
+    height: 2px;
+    border-bottom: 1px solid white;
+    position: center;
+    margin: 20px;
+}
+
+.swiper-slide {
+    text-align: center;
+}
+
+img {
+    height: 600px;
+}
+
+
+/* .gallery-img {
+    display: none;
+    max-width: 800px;
+    height: auto;
+    image-rendering: -webkit-optimize-contrast;
+    padding: 20px;
+}
+
+.active {
+    display: block;
+}
+
+.image-gallery {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btns {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    padding: 5px 25px;
+    margin: 15px 15px;
+    border-color: white;
+    cursor: pointer;
+    font-family: 'Libre Baskerville', serif;
+    opacity: 1;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: rgb(133, 72, 7);
+    opacity: 1;
+}
+
+.btn:focus {
+    outline: chocolate;
+}
+
+.prev {
+    margin-right: 15px;
+}
+
+.btn:disabled {
+    background-color: black;
+    opacity: 0.4;
+    cursor: not-allowed;
+}
+
+@media screen and (min-width: 400px) {
+    .gallery-img {
+        max-width: 100%;
+        height: auto;
+        padding: 10px;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .gallery-img {
+        max-width: 100%;
+        height: auto;
+        padding: 15px;
+    }
+}
